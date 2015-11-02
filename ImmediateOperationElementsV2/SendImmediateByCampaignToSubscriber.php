@@ -206,4 +206,4 @@
     $sendImmediateByCampaignToSubscriberParameters->subscriber = $userData;
     $sendImmediateByCampaignToSubscriberParameters->sendImmediateOptions = $sendImmediateOptions;
 
-    $clabService->sendImmediateByCampaignToSubscriber($sendImmediateByCampaignToSubscriberParameters);
+    $uuid = $clabService->sendImmediateByCampaignToSubscriber($sendImmediateByCampaignToSubscriberParameters);
