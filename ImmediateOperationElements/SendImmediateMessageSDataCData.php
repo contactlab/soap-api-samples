@@ -124,6 +124,20 @@
     }
 
     /*
+     *  Invalidate Token because sendImmediate methods don't need token
+    */
+
+    /*
+     * Object invalidateToken
+     * @var AuthToken $token
+    */
+
+    $invalidateTokenParameters = new invalidateToken();
+    $invalidateTokenParameters->token = $token;
+
+    $clabService->invalidateToken($invalidateTokenParameters);
+
+    /*
      *  SoapVar is necessary for Message because
      *  every message can be EmailMessage, TextMessage, FaxMessage and PushMessage
     */

@@ -6,7 +6,7 @@
     /*  Start Mandatory   */
 
     $apiKey = <<api key >>;
-    $userKey = <<user key>>;
+    $userKey = <<user key >>;
 
     $recipient = 'existing.email@contactlab.com';
     $campaignId = <<id campaign>>;
@@ -151,6 +151,20 @@
         }
         $attachments[] = $attachment;
     }
+
+    /*
+     *  Invalidate Token because sendImmediate methods don't need token
+    */
+
+    /*
+     * Object invalidateToken
+     * @var AuthToken $token
+    */
+
+    $invalidateTokenParameters = new invalidateToken();
+    $invalidateTokenParameters->token = $token;
+
+    $clabService->invalidateToken($invalidateTokenParameters);
 
     /*
      * Object SendImmediateOptions
