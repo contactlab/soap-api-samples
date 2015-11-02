@@ -91,9 +91,7 @@
     $borrowTokenParameters->apiKey = $apiKey;
     $borrowTokenParameters->userKey = $userKey;
 
-    $borrowTokenResponse = $clabService->borrowToken($borrowTokenParameters);
-
-    $token = $borrowTokenResponse->return;
+    $token = $clabService->borrowToken($borrowTokenParameters)->return;
 
     /*
      * Object getCampaign
@@ -206,4 +204,4 @@
     $sendImmediateByCampaignToSubscriberParameters->subscriber = $userData;
     $sendImmediateByCampaignToSubscriberParameters->sendImmediateOptions = $sendImmediateOptions;
 
-    $uuid = $clabService->sendImmediateByCampaignToSubscriber($sendImmediateByCampaignToSubscriberParameters);
+    $uuid = $clabService->sendImmediateByCampaignToSubscriber($sendImmediateByCampaignToSubscriberParameters)->return;
