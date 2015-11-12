@@ -1,7 +1,7 @@
 <?php
 
 
-    require 'src/ClabService.php';
+    require __DIR__.'/../vendor/autoload.php';
 
     /*  Start Mandatory   */
 
