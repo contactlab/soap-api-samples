@@ -1,0 +1,11 @@
+{
+    "name": "contactlab/soap-api-php-samples",
+    "description": "Php sample code package for ContactLab SOAP Api usage",
+    "require": {
+        "contactlab/soap-api-php-client": "^2.3"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.10"
+    },
+    "license": "Apache-2.0"
+}
