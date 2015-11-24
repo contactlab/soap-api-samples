@@ -12,7 +12,7 @@ $campaignId = <<id campaign>>;
 
 // Optional
 
-$nameRecipient = 'Mario';
+$nameRecipient = 'Name';
 
 $senderName = 'ContactLab';
 $senderEmail = 'noreply@contactlab.com';
