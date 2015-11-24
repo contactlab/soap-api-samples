@@ -112,7 +112,7 @@ if (isset($textContent)) {
 $campaign->message = new \SoapVar($campaign->message, SOAP_ENC_OBJECT, 'EmailMessage', 'domain.ws.api.contactlab.com');
 
 /**
- * Preparing sendImmadiateOption
+ * Preparing sendImmediateOption
  */
 $sendImmediateOptions = new SendImmediateOptions();
 
