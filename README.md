@@ -1,2 +1,2 @@
-# soap-api-php-samples
-Php sample code package for ContactLab SOAP Api usage
+# soap-api-samples
+Sample code package for ContactLab SOAP Api usage
