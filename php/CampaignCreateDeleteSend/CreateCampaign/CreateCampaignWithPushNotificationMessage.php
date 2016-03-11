@@ -81,6 +81,8 @@ $pushEndPointEntryAPN->rawContent = $apnRawContent;
 array_push($endPoints, $pushEndPointEntryAPN);
 
 $getPushNotificationMessage->endPoints = $endPoints;
+
+// SoapVar is necessary for Message because every message can be EmailMessage, TextMessage, FaxMessage or PushMessage
 $pushNotificationMessage = new \SoapVar(
     $getPushNotificationMessage,
     SOAP_ENC_OBJECT,
@@ -92,7 +94,7 @@ $pushNotificationMessage = new \SoapVar(
 $campaign = new Campaign();
 $campaign->name = $campaignName;
 $campaign->alias = $campaignAlias;
-$campaign->message = $pushNotificationMessage; // @todo
+$campaign->message = $pushNotificationMessage;
 $campaign->modifier = $campaignModifier;
 $campaign->removeDuplicates = true;
 
