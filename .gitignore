@@ -1,4 +1,4 @@
-/vendor/
-composer.lock
+php/vendor/
+php/composer.lock
 /nbproject/
 .idea/
