@@ -2,3 +2,4 @@ php/vendor/
 php/composer.lock
 php/nbproject/
 .idea/
+/nbproject/
