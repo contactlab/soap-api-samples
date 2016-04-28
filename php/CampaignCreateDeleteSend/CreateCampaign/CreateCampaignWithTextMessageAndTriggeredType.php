@@ -47,8 +47,7 @@ $getTextMessage = $clabService->getMessageModelById($getMessageModelByIdParamete
  * SoapVar is necessary for Message because every message can be:
  * EmailMessage (Channel EMAIL),
  * TextMessage (Channel SMS),
- * FaxMessage (Channel FAX)
- * PushMessage (Channel PUSH)
+ * PushNotificationMessage (Channel PUSH)
  */
 
 $textMessage = new \SoapVar($getTextMessage, SOAP_ENC_OBJECT, 'TextMessage', 'domain.ws.api.contactlab.com');

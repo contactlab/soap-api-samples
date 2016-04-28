@@ -86,8 +86,7 @@ $getPushNotificationMessage->endPoints = $endPoints;
  * SoapVar is necessary for Message because every message can be:
  * EmailMessage (Channel EMAIL),
  * TextMessage (Channel SMS),
- * FaxMessage (Channel FAX)
- * PushMessage (Channel PUSH)
+ * PushNotificationMessage (Channel PUSH)
  */
 
 $pushNotificationMessage = new \SoapVar(

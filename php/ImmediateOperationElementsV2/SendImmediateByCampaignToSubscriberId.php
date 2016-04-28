@@ -87,7 +87,7 @@ if (isset($textContent)) {
     $campaign->message->textContent = $textContent;
 }
 
-// SoapVar is necessary for Message because every message can be EmailMessage, TextMessage, FaxMessage or PushMessage
+// SoapVar is necessary for Message because every message can be EmailMessage, TextMessage or PushNotificationMessage
 $campaign->message = new \SoapVar($campaign->message, SOAP_ENC_OBJECT, 'EmailMessage', 'domain.ws.api.contactlab.com');
 
 
