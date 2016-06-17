@@ -18,7 +18,7 @@ $gcmRawContent = '{"notification":{'
 // GMC show application icon
 .'"icon":"ic_notification",'
 // GCM on click open the application
-.'"click-action":"com.contactlab.clabpush_android_sample.OPEN_MAIN_ACTIVITY"},'
+.'"click_action":"com.contactlab.clabpush_android_sample.OPEN_MAIN_ACTIVITY"},'
 // GCM custom data
 .'"data":{"customKey":"customValue"}}';
 
