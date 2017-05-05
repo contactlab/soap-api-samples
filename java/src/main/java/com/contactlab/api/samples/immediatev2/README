@@ -1,1 +1,15 @@
-See https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/Immediate-operation-elements-V2/ for further information.
+User CASE: Send Immediate 2
+
+managecampaign package contains some method to manage immediate campaign
+
+For further information:
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/cancelCampaign/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/createCampaign/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/getDeliveryStatus/
+
+send package contains some method to send immediate campaign (with or without subscriber id)
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/sendImmediateByCampaignAliasToSubscriber/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/sendImmediateByCampaignIdToSubscriber/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/sendImmediateByCampaignAliasToSubscriberId/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/sendImmediateByCampaignIdToSubscriberId/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/sendImmediateByCampaignToSubscriberId/

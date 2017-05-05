@@ -1,0 +1,12 @@
+User CASE: Send Campaign
+Each class in package show how to call API SOAP method for this use case
+except class AllOperation that contains an example with all step
+
+For further information:
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/addSubscriberSource/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/addSubscribers/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/addSubscriberSourceFilter/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/createMessageModel/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/createCampaign/
+ * https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/sendCampaign/
+

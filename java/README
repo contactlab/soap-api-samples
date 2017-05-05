@@ -1,0 +1,8 @@
+ConfigProperties Class contains 2 static properties
+ * API_KEY
+ * USER_KEY
+used in all test to get SOAP API access token
+
+Each package represent a use case or a set of entity operations
+
+All static properties in class represent an example of entity ids
