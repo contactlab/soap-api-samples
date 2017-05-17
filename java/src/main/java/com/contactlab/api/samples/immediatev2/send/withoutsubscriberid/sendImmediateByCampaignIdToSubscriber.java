@@ -11,7 +11,7 @@ import static com.contactlab.api.samples.ConfigProperties.API_KEY;
 import static com.contactlab.api.samples.ConfigProperties.USER_KEY;
 import static com.contactlab.api.samples.managingsubscribers.AddSubscriber.createAttribute;
 
-public class sendImmediateByCampaignToSubscriber {
+public class sendImmediateByCampaignIdToSubscriber {
 
     /* Example of Data Ids */
     private static Integer IMMEDIATE_CAMPAIGN_ID = 8;
