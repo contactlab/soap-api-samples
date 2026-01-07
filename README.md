@@ -2,4 +2,4 @@
 
 Sample code package for Contactsend SOAP Api usage.
 
-For more information please refer to https://explore.contactlab.com/developers/Contactsend/documentazione/SoapApi/index/.
+For more information please refer to [Reference Manual](https://docs.contactlab.com/docs/development/soap-api).
